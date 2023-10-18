@@ -33,7 +33,7 @@ export function App() {
             <ul>
                 {tasks.map((task, index) => (
                     <li key={index}>
-                        <input type="text" />
+                        <input/>
                         {task}
                         <button onClick={() => handleDeleteTask(index)} >
                             <Icon path={mdiDeleteForever} size={0.5}/>
